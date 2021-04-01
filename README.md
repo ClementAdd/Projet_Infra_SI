@@ -80,11 +80,24 @@ Voici le plan d’adressage de l’entreprise :
 <img src="Screenshot_20210401_150947.png" alt="Plan d'adressage">
 
 
+## Activation DHCP
 
-## Activation Firewall
+Il faut maintenant activer le DHCP sur les interfaces du routeur. <br>
+De retour sur l'interface d'administration :<br>
+"Services" > "DHCP Server" > "OPT1"  <br>
 
-1) Accédez au menu Firewall puis Rules
-2)Aller dans l’onglet WAN
+Activez le DHCP sur l'interface, spécifiez le range d'adresses et validez.    <br>
+Les machines ont maintenant une IP attribuée automatiquement suivant leur VLAN.  <br>
+
+<br><br>
+Configuration de la liste des ip mac autorisés par le DHCP<br>
+On a autorisé 2 adresse MAC “00:0C:29:20:21:51” & “ 00:0C:29:6C:AC:54”<br>
+<img src="dhcp1.png">
+<img src="dhcp2.png">
+
+Pc qui essaie de se connecter a comme adresse MAC :<br>
+“00:0C:29:4b:3e:23”. Elle n’est pas entrée dans le serveur DHCP, donc elle n’a pas accès au réseau comme nous pouvons le voir.<br>
+<img src="essaie_connexion.png" alt="console connexion">
 
 
 
