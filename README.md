@@ -64,9 +64,11 @@ De plus, toutes les machines ont accès au serveur DNS du routeur, et ce dernier
 
 Voici donc le schéma de notre réseau : 
 
-
+<img src="Schéma réseau (1).png" alt="Schema réseau">
 
 Voici le plan d’adressage de l’entreprise :
+
+<img src="Screenshot_20210401_150947.png" alt="Plan d'adressage">
 
 
 
