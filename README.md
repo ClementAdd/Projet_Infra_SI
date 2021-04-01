@@ -19,12 +19,12 @@ Tout d'abord :
 
 Après le reboot on arrive donc sur l'écran de menu. On va effectuer une configuration basique pour l'instant, celle-ci nous permettra d'accéder à l'interface web d'administration.   
   
-1/ Option 1 : Assign Interfaces
+1) Option 1 : Assign Interfaces
     - Définir VLANs maintenant ? : "n"
     - Renseigner interface WAN (em0) et l'interface LAN (em1)
     - Valider : "y"
 
-2/ Option 2 : Set Interface(s) IP address
+2) Option 2 : Set Interface(s) IP address
     - Selectionner l'interface WAN
     - DHCPv4 ? : "y"
     - DHCPv6 ? : "n"
@@ -32,7 +32,7 @@ Après le reboot on arrive donc sur l'écran de menu. On va effectuer une config
     - Revert to HTTP ? : "n"
     - <Enter> pour continuer  
 
-3/ Option 2 : Set Interface(s) IP address
+3) Option 2 : Set Interface(s) IP address
     - Select l'interface LAN
     - Entrez l'adresse IPV4 : 192.168.1.1
     - Entrez le masque : 24
@@ -72,12 +72,12 @@ Voici le plan d’adressage de l’entreprise :
 
 ## Activation DHCP
   
-Il faut maintenant activer le DHCP sur les interfaces du routeur. De retour sur l'interface d'administration :  
+Il faut maintenant activer le DHCP sur les interfaces du routeur. De retour sur l'interface d'administration :  <br>
   
-"Services" > "DHCP Server" > "OPT1"  
+"Services" > "DHCP Server" > "OPT1"  <br>
   
-Activez le DHCP sur l'interface, spécifiez le range d'adresses et validez.    
-Les machines ont maintenant une IP attribuée automatiquement suivant leur VLAN.  
+Activez le DHCP sur l'interface, spécifiez le range d'adresses et validez.  <br>  
+Les machines ont maintenant une IP attribuée automatiquement suivant leur VLAN.  <br>
   
 Il ne faut pas oublier d'ajouter une règle pour l'interface OPT1 dans "System" > "Advanced" > "Firewall & NAT" pour pouvoir ping les machines du VLAN 10 depuis les machines du VLAN 20  et inversement.
 
@@ -88,8 +88,8 @@ Il ne faut pas oublier d'ajouter une règle pour l'interface OPT1 dans "System" 
 
 ## Activation Firewall
 
-1/ Accédez au menu Firewall puis Rules
-2/ Aller dans l’onglet WAN
+1) Accédez au menu Firewall puis Rules
+2)Aller dans l’onglet WAN
 
 
 
@@ -101,14 +101,14 @@ SquidGuard est un système de filtrage d’URL permettant de filtrer les accès 
 
 Installation : 
 
-1/ Dans Available Packages, rechercher “squid” puis installer les 3 packages.
-2/ Une fois installé, créez un certificat pour le filtrage en HTTPS
-3/ Sélectionner “Services” et “SquidGuard Proxy Filter”
-4/ Activer SquidGuard “Enable”
-5/Activer “Enable Log” et “Enable log rotation”
-6/ Activer “Enable Blacklist” et insérer dans Blacklist URL : 
+1) Dans Available Packages, rechercher “squid” puis installer les 3 packages.
+2) Une fois installé, créez un certificat pour le filtrage en HTTPS
+3) Sélectionner “Services” et “SquidGuard Proxy Filter”
+4) Activer SquidGuard “Enable”
+5) Activer “Enable Log” et “Enable log rotation”
+6) Activer “Enable Blacklist” et insérer dans Blacklist URL : 
   <br> http://dsi.ut-capitole.fr/blacklists/download/blacklists_for_pfsense.tar.gz
-7/ Puis sauvegarder.
-8/ Dans l’onglet Blacklist, cliquer sur “ Download” pour installer tous les filtres.
+7) Puis sauvegarder.
+8) Dans l’onglet Blacklist, cliquer sur “ Download” pour installer tous les filtres.
 
 
