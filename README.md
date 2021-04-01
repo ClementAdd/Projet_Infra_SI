@@ -9,7 +9,7 @@
 # Projet n°2 : ROUTEUR
 <h2> Mise en place d’un routeur qui gère les différentes zones réseaux d’une petite entreprise (avec certaines fonctionnalités additionnelles, en plus du routage simple).
 
-# Configuration PfSense
+# Installation & Configuration PfSense
 
 ## Installation de pfSense
 
