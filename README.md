@@ -109,14 +109,13 @@ SquidGuard est un système de filtrage d’URL permettant de filtrer les accès 
 
 Installation : 
 
-1) Dans Available Packages, rechercher “squid” puis installer les 3 packages.
+1) Dans Available Packages, rechercher “squid” puis installer squid & squidGuard.
 2) Une fois installé, créez un certificat pour le filtrage en HTTPS
 3) Sélectionner “Services” et “SquidGuard Proxy Filter”
 4) Activer SquidGuard “Enable”
 5) Activer “Enable Log” et “Enable log rotation”
-6) Activer “Enable Blacklist” et insérer dans Blacklist URL : 
-  <br> http://dsi.ut-capitole.fr/blacklists/download/blacklists_for_pfsense.tar.gz
-7) Puis sauvegarder.
+6) Puis sauvegarder.
+7) Choisir les catégories de site à bloquer
 8) Dans l’onglet Blacklist, cliquer sur “ Download” pour installer tous les filtres.
 
 ### Paramétrage des règles
