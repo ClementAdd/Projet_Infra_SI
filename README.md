@@ -113,4 +113,12 @@ Installation :
 7) Puis sauvegarder.
 8) Dans l’onglet Blacklist, cliquer sur “ Download” pour installer tous les filtres.
 
+### Paramétrage des règles
+Action ‘Pass’
+Interface “Wan”
+Source “ Single Host or alias”
+Destination “Wan address”
+Destination port range “HTTPS
+Log Activer pour avoir les log journaliers
+Description : AJouter une description pour la règle 
 
