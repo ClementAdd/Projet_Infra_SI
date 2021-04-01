@@ -78,18 +78,6 @@ Voici le plan d’adressage de l’entreprise :
 
 
 
-## Activation DHCP
-  
-Il faut maintenant activer le DHCP sur les interfaces du routeur. De retour sur l'interface d'administration :  <br>
-  
-"Services" > "DHCP Server" > "OPT1"  <br>
-  
-Activez le DHCP sur l'interface, spécifiez le range d'adresses et validez.  <br>  
-Les machines ont maintenant une IP attribuée automatiquement suivant leur VLAN.  <br>
-  
-Il ne faut pas oublier d'ajouter une règle pour l'interface OPT1 dans "System" > "Advanced" > "Firewall & NAT" pour pouvoir ping les machines du VLAN 10 depuis les machines du VLAN 20  et inversement.
-
-
 ## DNS Resolver
 
 
