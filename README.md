@@ -1,4 +1,5 @@
-# Projet Infra&SI
+# Projet Infra & SI
+<img align="right" height="100" src="https://brand.ynov.com/img/logos/projet_etudiant/ynov/prj_ynov.svg">
 # Addario Clément & Pader Joris
 # B1 Informatique Ynov Toulouse
 
