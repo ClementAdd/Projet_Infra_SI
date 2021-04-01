@@ -1,10 +1,11 @@
 # Projet Infra & SI
 <img align="right" height="100" src="https://brand.ynov.com/img/logos/projet_etudiant/ynov/prj_ynov.svg">
-# Addario Clément & Pader Joris
-# B1 Informatique Ynov Toulouse
+
+<h3> Addario Clément & Pader Joris
+<h3> B1 Informatique Ynov Toulouse
 
 # Projet n°2 : ROUTEUR
-## Mise en place d’un routeur qui gère les différentes zones réseaux d’une petite entreprise (avec certaines fonctionnalités additionnelles, en plus du routage simple).
+<h2> Mise en place d’un routeur qui gère les différentes zones réseaux d’une petite entreprise (avec certaines fonctionnalités additionnelles, en plus du routage simple).
 
 # Configuration PfSense
 
