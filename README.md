@@ -78,10 +78,6 @@ Voici le plan d’adressage de l’entreprise :
 
 
 
-## DNS Resolver
-
-
-
 ## Activation Firewall
 
 1) Accédez au menu Firewall puis Rules
