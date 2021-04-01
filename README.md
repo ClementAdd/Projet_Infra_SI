@@ -89,7 +89,7 @@ De retour sur l'interface d'administration :<br>
 Activez le DHCP sur l'interface, spécifiez le range d'adresses et validez.    <br>
 Les machines ont maintenant une IP attribuée automatiquement suivant leur VLAN.  <br>
 
-<br><br>
+<br>
 Configuration de la liste des ip mac autorisés par le DHCP<br>
 On a autorisé 2 adresse MAC “00:0C:29:20:21:51” & “ 00:0C:29:6C:AC:54”<br>
 <img src="dhcp1.png">
@@ -97,8 +97,8 @@ On a autorisé 2 adresse MAC “00:0C:29:20:21:51” & “ 00:0C:29:6C:AC:54”<
 
 Pc qui essaie de se connecter a comme adresse MAC :<br>
 “00:0C:29:4b:3e:23”. Elle n’est pas entrée dans le serveur DHCP, donc elle n’a pas accès au réseau comme nous pouvons le voir.<br>
-<img src="essaie_connexion.png" alt="console connexion">
-
+<img src="essaie_connexion.png" alt="console connexion"><br>
+Elle sécurise donc le réseau car seul les appareils connus peuvent accéder au réseau
 
 
 ## Activation SquidGuard
